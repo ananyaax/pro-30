@@ -105,13 +105,13 @@ function handleButtonPress() {
     break();
   }, 1500); */
 
-   jointLink.dettach();
-  setTimeout(() => {
-    bridge.break();
-  }, 5); 
-
   /* jointLink.dettach();
   setTimeout(() => {
     bridge.break();
-  }, 1500); */
+  }, 5); */
+
+   jointLink.dettach();
+  setTimeout(() => {
+    bridge.break();
+  }, 1500); 
 }
